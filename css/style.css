@@ -1,0 +1,1513 @@
+@import url("../Fonts/stylesheet.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: 'Grtsk Tera';
+    font-size: 14px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10500;
+}
+
+header.sticky {
+    padding: 5px, 100px;
+    background-color: #000000;
+}
+
+#navbar img {
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 8%;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: 2% 30%;
+    font-family: "BR Cobane";
+    font-size: 14px;
+    color: #fff;
+}
+#navbar .menu-bar {
+    background-image: url("../image/menubar.png");
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+  }
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+#navbar ul li .urun-a {
+    color: #000;
+}
+
+header.urun-navbar .urun-a {
+    padding: 5px, 100px;
+    color: #fff;
+}
+
+.sticky .urun-a {
+    color: #fff !important;
+}
+
+.sticky img {
+    filter: brightness(0) invert(1);
+}
+
+#drop {
+    border: 1px solid #fff;
+    border-radius: 35px;
+    width: 55px;
+}
+
+#drop .urun-drop {
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 45px;
+}
+
+#dil a:hover {
+    background-color: #ff5d5d;
+}
+
+/* nav slider*/
+.slider {
+    position: relative;
+    top: 0%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#slider .swiper-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider .swiper-button.next {
+    left: 5%;
+}
+
+#slider .swiper-button.prev {
+    right: 5%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ELYAF-GER-KAZANIM-S {
+    margin: 269px 387px 240px 350px;
+    font-family: 'BR Cobane Bold';
+    font-size: 60px;
+    font-weight: 90;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}
+
+/*hakkında*/
+.button {
+    width: 184px;
+    height: 53px;
+    border: 1.3px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-primaryy {
+    background-color: none;
+}
+
+.btn-primaryy:hover {
+    color: rgb(255, 255, 255);
+    background-color: #ff5d5d;
+    border: 1.3px solid #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hakkinda {
+    background-color: #030303;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.hakkinda img {
+    width: 100%;
+    height: 701px;
+    object-fit: cover;
+}
+
+.hakkinda-text {
+    margin-top: 7%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    transform: translate(30%);
+}
+
+.hakkinda .title {
+    width: 109px;
+    height: 28px;
+    margin: 0 370.5px 61px;
+    font-family: "BRCobane";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ff5d5d;
+}
+
+.hakkinda .title2 {
+    width: 580px;
+    height: 36px;
+    margin: 61px 135px 70px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.hakkinda .hakkinda-aciklama {
+    width: 850px;
+    height: 112px;
+    margin: 70px 0 107px;
+    font-family: 'BRCobane';
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #fff;
+}
+
+/*counter*/
+.content-box {
+    background-color: #030303;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.col-md-3 .stat-title {
+    font-size: 40px;
+}
+
+.col-md-3 .counter {
+    color: #ff5d5d;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.col-md-3 p {
+    font-size: 18px;
+    font-family: 'BR Cobane';
+}
+
+/*swiper*/
+.ekipman {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    background-color: #030303;
+}
+
+.ekipman .ekipman-title {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.baslik {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.baslik .button.btn-primaryy {
+    float: right;
+    margin-right: 200px;
+    font-family: 'BR Cobane';
+
+}
+
+.swiper-container {
+    width: 100%;
+    background-color: #030303;
+}
+
+.ekipman .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide .swipper-img {
+    display: block;
+    width: 180px;
+    height: 150px;
+    margin: 93px 0 77px 23px;
+}
+
+.ekipman h2 {
+    font-size: 13px;
+    color: #ff5d5d;
+    background-color: #f7f7f7;
+}
+
+.ekipman .swiper-slide {
+    display: block;
+    padding: 15px;
+    margin: 25px 15px 25px 25px;
+}
+
+.ekipman .swiper-slide button {
+    background-color: transparent;
+    z-index: 11;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #030303;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ekipman .swiper-slide button:hover {
+    background-color: #030303;
+
+}
+
+.ekipman .swiper-slide button img {
+    width: 20px;
+    height: 20px;
+}
+
+.ekipman .swiper-slide button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+#icons::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 82%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#icons {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 10%;
+}
+
+#icons .swiper-button button {
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 5%;
+    margin-top: 0;
+
+}
+
+#icons .icons-ileri .icons-geri {
+    width: 20px;
+    height: 20px;
+}
+
+.deneyim-container {
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.deneyim-container img {
+    width: 60%;
+    height: 85%;
+    margin-top: 5%;
+}
+
+.deneyim-icerik {
+    padding-top: 2rem;
+}
+
+.deneyim-container .deneyim-icerik h2 {
+    width: 420px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #000;
+
+}
+
+.deneyim-container .deneyim-icerik p {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.75;
+    color: #6b6b6b;
+}
+
+.deneyim-item {
+    border: solid 1px #e1e1e1;
+    padding: 2%;
+}
+
+.deneyim-item::before {
+    content: '';
+    position: absolute;
+    margin-bottom: 60px;
+    left: 8%;
+    padding: auto;
+    width: 50%;
+    height: 8px;
+    background-color: #030303;
+    opacity: 0;
+    top: -8px;
+}
+
+.deneyim-item:hover::before {
+    opacity: 1;
+
+}
+
+.deneyim-item:hover {
+    color: #fff;
+    background-color: #ff5d5d;
+}
+
+.deneyim-item h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.39;
+    color: #000;
+}
+
+.deneyim-item p {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.75;
+    color: #6b6b6b;
+}
+
+.deneyim-item img {
+    width: 45px;
+    height: 50px;
+    object-fit: contain;
+
+}
+
+.deneyim-item button {
+    background-color: transparent;
+    z-index: 11;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #030303;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem;
+}
+
+.deneyim-item button:hover {
+    background-color: #000;
+}
+
+.deneyim-item button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.deneyim-item button img {
+    width: 20px;
+    height: 20px;
+}
+
+/*haberler*/
+
+.haber {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    background-color: #030303;
+}
+
+.haber .haber-title {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.baslik {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.baslik .button.btn-primaryy {
+    float: right;
+    margin-right: 200px;
+    font-family: 'BR Cobane';
+
+}
+
+.haber-swiper {
+    width: 100%;
+    background-color: #030303;
+
+}
+
+.haber .haber-icerik {
+    font-family: 'BR Cobane';
+    font-size: 18px;
+    line-height: 1.39;
+    color: #fff;
+
+}
+
+.haber .haber-tarih {
+    font-family: 'BR Cobane';
+    font-size: 14px;
+    line-height: 1.79;
+    color: #b2b2b2;
+}
+
+
+.haber .haber-slide {
+    display: block;
+    padding: 15px;
+    margin: 25px 15px 25px 25px;
+}
+
+/*tanıtım*/
+.tanitim {
+    background-color: #030303;
+}
+
+.col-12.tanitim-container {
+    padding-right: 0%;
+    padding-left: 0%;
+ 
+}
+
+.tanitim-container .tanitim-item {
+    height: 200px;
+    border: 1px solid #3d3d3d;
+}
+
+.tanitim .tanitimbtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.tanitim .tanitimbtn {
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.tanitimbtn:hover {
+    background-color: #fff;
+}
+
+.tanitimbtn:hover img {
+    filter: brightness(1) invert(1);
+}
+
+.tanitim .tanitim-icerik {
+    font-family: 'Grtsk Tera';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.36;
+    color: #fff;
+    padding: 3rem;
+}
+
+.tanitim-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer*/
+
+
+.social_footer_ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social_footer_ul h6 {
+    color: white;
+    font-size: 27PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.social_footer_ul li {
+    padding-right: 20px;
+    float: left;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.sosyal-medya {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#contact .sosyalmedya-text {
+    font-family: 'Grtsk Tera';
+    font-size: 23px;
+    line-height: 1.3;
+    color: #000;
+}
+
+.form-group .form-control {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 0%;
+    height: 3.5rem;
+    color: #000;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+#contact .mail .form-group label {
+    padding-left: 5rem;
+    margin-top: 3rem;
+}
+
+#contact .mail .form-group input:hover {
+    border-color: #030303;
+}
+
+#contact .form-group {
+    position: relative;
+}
+
+#contact .form-group i {
+    position: absolute;
+    right: 5.5rem;
+    top: 5.8rem;
+
+}
+
+#contact .no1 img {
+    padding-top: 3rem;
+    padding-right: 1rem;
+}
+
+#contact .no2 img {
+    padding-top: 4rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+}
+
+#contact .no1 span {
+    padding-top: 3rem;
+    font-family: 'BR Cobane';
+    font-size: 12px;
+    line-height: 1.75;
+    color: #000;
+}
+
+#contact .no2 span {
+    padding-top: 4rem;
+    font-family: 'BR Cobane';
+    font-size: 12px;
+    line-height: 1.75;
+    color: #000;
+}
+
+#contact .kvkk a {
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-family: 'BR Cobane';
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+#contact .yil {
+
+    font-family: 'BR Cobane';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    color: #000;
+}
+
+/*HAKKİMİZDA*/
+#hakkimizda .hakkinda-header {
+    background-color: #030303;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#hakkimizda img {
+    width: 100%;
+}
+
+#hakkimizda .hakkinda-anlatim {
+    left: 10%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+
+}
+
+#hakkimizda .title2 {
+    font-family: 'Grtsk Tera';
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff5d5d;
+}
+
+#hakkimizda .hakkinda-aciklamalar {
+    width: 738px;
+    height: 140px;
+    font-family: 'BR Cobane';
+    font-size: 18px;
+    line-height: 1.56;
+    color: #fff;
+}
+
+
+/*Timeline*/
+.scroll-zaman {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.scroll-zaman::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.scroll-zaman::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.scroll-zaman::-webkit-scrollbar-thumb {
+    background: #ff5d5d;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-zaman::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+.timeline {
+    list-style: none;
+    position: relative;
+    padding: 50px;
+}
+
+#zaman .tarihcemiz {
+    text-align: center;
+    font-family: 'Grtsk Tera';
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 1px;
+    background-color: #cacaca;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline>li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li>.timeline-panel {
+    width: 35%;
+    text-align: left;
+    border: 1px solid #d6cdcd;
+    padding: 15px;
+    position: relative;
+}
+
+.timeline>li>.timeline-badge {
+    color: #bfbfbf;
+    width: 150px;
+    height: 150px;
+    font-size: 2.4em;
+    font-family: 'Grtsk Tera';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    /*top: 56px;*/
+    left: 45%;
+    margin-left: -25px;
+    background-color: #fff;
+    z-index: 100;
+    border: 1px solid #cacaca;
+    border-radius: 100%;
+}
+
+.tarihce-li:hover .timeline-badge {
+    background-color: #000;
+    color: #ff5d5d;
+    width: 190px;
+    height: 190px;
+    left: 43.5%;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+}
+
+.timeline-body>p,
+.timeline-body>ul {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.75;
+    color: #000;
+}
+
+
+.timeline-body>p+p {
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline>li>.timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline>li>.timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline>li>.timeline-panel {
+        float: right;
+    }
+
+    ul.timeline>li>.timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+
+    ul.timeline>li>.timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+}
+
+/*Deneyim Yönlülük Ve Güvenirlik*/
+#deneyim .yon-img {
+    width: 350px;
+    height: 400px;
+}
+
+.deneyim-yon {
+    height: 95vh;
+    padding-top: 100px;
+    background-color: #000;
+}
+
+.yon-icerik {
+    padding-left: 15vh;
+}
+
+.yon {
+    background-color: #000;
+}
+
+#deneyim .title-deneyim {
+    font-family: 'Grtsk Tera';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#deneyim .icerik-deneyim {
+    width: 520px;
+    height: 175px;
+    margin: 35px 0 0;
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.56;
+    color: #fff;
+}
+
+/*Ürünler*/
+#urunler .urun {
+    margin-top: 20%;
+
+}
+
+.urunler-item {
+    padding-top: 5%;
+    background-color: #d6cdcd;
+}
+
+#urunler .accordion-item .menu-baslik h2 {
+    font-family: 'BR Cobane';
+    font-size: 17px;
+    line-height: 4.71;
+    color: #000;
+}
+
+.urun-gorunum {
+    background: #fff;
+}
+
+.urun-gorunum .urun-buton {
+    font-weight: bold;
+    background: transparent;
+    font-family: 'BR Cobane';
+    font-size: 17px;
+    width: 100%;
+    color: #000;
+}
+
+
+.accordion-item .accordion-body ul>li>a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'BR Cobane';
+    font-size: 17px;
+    line-height: 3.13;
+}
+
+.accordion-item .accordion-body ul>li>a:hover {
+    color: #ff5d5d;
+}
+
+.accordion-item .accordion-body ul>li {
+    padding: 3px;
+}
+
+.accordion-item .accordion-body ul {
+    list-style: none;
+}
+
+.urun-buton:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+#urunler .urun-buton:not(.collapsed) {
+    color: #28292b;
+    background-color: #e7f1ff;
+}
+
+#urun-card {
+    width: 100%;
+}
+
+#urun-card .urun-title {
+    display: inline-block;
+    width: 80%;
+}
+
+#urun-card .urun-title h2 {
+    font-family: 'Grtsk Tera';
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5d5d;
+}
+
+#urun-card .urun-title p {
+    font-family: 'BR Cobane';
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 4.71;
+    color: #000;
+}
+
+#urun-card .card {
+    width: 450px;
+    height: 316px;
+    margin: 25px 10px;
+    box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.08);
+}
+
+#urun-card .card-btn {
+    background-color: #f2f2f2;
+    color: #000;
+    font-family: 'BR Cobane';
+    font-size: 15px;
+    line-height: 1.33;
+    border: 1px solid none;
+    border-radius: 21.5px;
+}
+
+#urun-card .card-btn:hover {
+    background-color: #ff5d5d;
+    color: #fff;
+}
+
+#urun-card button {
+    background-color: transparent;
+    z-index: 11;
+    width: 2.8rem;
+    height: 3rem;
+    border: 1px solid #030303;
+    border-radius: 100%;
+    align-items: center;
+}
+
+#urun-card button:hover {
+    background-color: #000;
+}
+
+#urun-card button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+#urun-card .urun-card-title {
+    font-family: 'Grtsk Tera';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #000;
+}
+
+#urun-card .card {
+    padding: 30px 35px;
+}
+
+#urun-card img {
+    width: 60%;
+    margin-left: auto;
+}
+
+.urun-tanitim {
+    background-color: #f4f5f5;
+}
+
+#tanit-urun .tanitim-icerik {
+    color: #000;
+}
+
+#tanit-urun button {
+    background-color: transparent;
+    z-index: 11;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #030303;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tanit-urun button img {
+    width: 20px;
+    height: 20px;
+}
+
+#tanit-urun button:hover {
+    background-color: #000;
+}
+
+#tanit-urun button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.tanitim-container .urun-item {
+    height: 200px;
+    border: 1px solid #d0d0d0;
+}
+
+.urunler-item {
+    background-color: #f4f5f5;
+}
+
+/*Hammadde*/
+
+#madde-id .madde-img {
+    width: 300px;
+    height: 500px;
+    float: right;
+    padding-top: 25%;
+}
+
+.hammadde {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+
+.madde-icerik {
+    padding-left: 8%;
+    padding-top: 5%;
+
+}
+
+#madde-id .madde-icerik h2 {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #000;
+}
+
+#madde-id .madde-icerik h3 {
+    font-family: 'Grtsk Tera';
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5d5d;
+}
+
+#madde-id .madde-icerik h4 {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.25;
+    color: #c2c2c2;
+}
+
+.madde {
+
+    width: 100%;
+}
+
+#madde-id .title-madde {
+    font-family: 'Grtsk Tera';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+#madde-id .icerik-madde {
+    width: 520px;
+    height: 175px;
+    margin: 35px 0 0;
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    line-height: 1.56;
+    color: rgb(0, 0, 0);
+}
+
+.madde-icerik::after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translateY(-50%);
+    width: 60%;
+    height: 1px;
+    background-color: #f3f3f3;
+}
+
+#madde-id .iletisim-medya ul {
+    margin-bottom: 0%;
+}
+
+.iletisim-medya {
+    padding-left: 9rem;
+}
+
+#madde-id .paylas {
+    text-decoration: none;
+    border-right: 1px solid #d3d3d3;
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    color: #c2c2c2;
+}
+
+/*galeri madde*/
+.madde-galeri {
+    width: 100%;
+    height: 70%;
+    background-color: #f3f3f3;
+}
+
+#madde-slide .madde-slider {
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+.haber .haber-title {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.baslik .button.btn-primaryy {
+    float: left;
+    font-family: 'BR Cobane';
+}
+
+.madde-swiper {
+    width: 85%;
+    background-color: #f3f3f3;
+}
+
+.madde-galeri .madde-galeri-slide {
+    display: block;
+    padding: 15px;
+    margin: 25px 15px 25px 25px;
+}
+
+#madde-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    width: 82%;
+    height: 1px;
+    background-color: rgba(2, 2, 2, 0.5);
+}
+
+#madde-icon {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 10%;
+}
+
+#madde-icon .swiper-button button {
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#madde-icon .madde-icon-ileri .madde-icon-geri {
+    width: 20px;
+    height: 20px;
+}
+
+#madde-icon .madde-slider {
+    width: 100%;
+    background-color: #d6cdcd;
+}
+
+#madde-slide h2 {
+    font-family: 'BR Cobane';
+    font-size: 27px;
+    color: #000;
+    padding-left: 10%;
+}
+
+#madde-slide .madde-text {
+    transform: rotate(-90deg);
+    float: left;
+    margin-left: 18%;
+}
+
+/*özellik*/
+.ozellik-icerik {
+    height: 90vh;
+    background-color: #000;
+}
+
+.ozellik {
+    background-color: #000;
+    padding-top: 10%;
+}
+
+#oz h2 {
+    font-family: 'Grtsk Tera';
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#oz p {
+    font-family: 'BR Cobane';
+    font-size: 15px;
+    line-height: 1.73;
+    color: #fff;
+}
+
+/*haberler*/
+
+#haber-icerik .haber-card {
+    padding-top: 10%;
+    background-color: #000;
+    padding-bottom: 15%;
+}
+
+#haber-icerik h2 {
+    font-family: 'Grtsk Tera';
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5d5d;
+    padding-bottom: 4%;
+    padding-left: 1%;
+}
+
+.haber-kapsayici {
+    width: 100%;
+    background-color: #000;
+}
+
+.haber-card .card {
+    background-color: #000;
+}
+
+.haber-card .card :hover {
+    background-color: #2d2d2d;
+}
+
+#haber-icerik p {
+    font-family: 'BR Cobane';
+    font-size: 18px;
+    line-height: 1.39;
+    color: #fff;
+}
+
+#haber-icerik small {
+    font-family: 'BR Cobane';
+    font-size: 14px;
+    line-height: 1.79;
+    color: #b2b2b2;
+}
+
+/*İLETİŞİM*/
+.iletisim-icerik {
+    width: 100%;
+    height: 110vh;
+    background-color: #000;
+    padding: 10%;
+}
+
+.iletisim-konum .konum {
+    height: 350px;
+}
+
+.iletisim-konum .konum iframe {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.form-control:focus {
+    background-color: none !important;
+    border: 1px solid #6b6b6b;
+    color: #fff;
+}
+
+.iletisim-bilgi {
+    background-color: #353535;
+    padding: 5%;
+    height: 280px;
+}
+
+.iletisim-bilgi::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    background-color: #353535;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%)
+}
+
+#iletisim span {
+    font-family: 'BR Cobane';
+    font-size: 16px;
+    color: #fff;
+}
+
+#iletisim-form {
+    height: 80vh;
+    padding-top: 5%;
+    background-color: #000;
+}
+
+#iletisim-form h2 {
+    font-family: 'Grtsk Tera';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff5d5d;
+    padding: 5%;
+}
+
+#iletisim-form .form-btn {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 0.8rem;
+    width: 8rem;
+    font-family: 'BR Cobane';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+#iletisim-form .form-btn:hover {
+    background-color: #ff5d5d;
+}

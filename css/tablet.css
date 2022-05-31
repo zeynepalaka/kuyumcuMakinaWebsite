@@ -1,0 +1,282 @@
+/* nav slider*/
+@media screen and (max-width:1024px) {
+    .slider {
+        position: relative;
+        top: 0%;
+    }
+
+    #navbar .menu-bar {
+        background-image: url("../image/menubar.png");
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    #slider .swiper-slide {
+        text-align: center;
+        font-size: 12px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #slider .swiper-button {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #slider .swiper-button.next {
+        left: 3%;
+    }
+
+    #slider .swiper-button.prev {
+        right: 3%;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .ELYAF-GER-KAZANIM-S {
+
+        font-family: 'BR Cobane Bold';
+        font-size: 45px;
+        font-weight: 55;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+    }
+
+    /*hakkında*/
+    .button {
+        width: 150px;
+        height: 45px;
+        border: 1.3px solid #fff;
+        background: transparent;
+        color: #fff;
+    }
+
+    .btn-primaryy {
+        background-color: none;
+    }
+
+    .btn-primaryy:hover {
+        color: rgb(255, 255, 255);
+        background-color: #ff5d5d;
+        border: 1.3px solid #fff;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .hakkinda {
+        background-color: #030303;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .hakkinda img {
+        width: 100%;
+        height: 701px;
+        object-fit: cover;
+    }
+
+    .hakkinda-text {
+        margin-top: 7%;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        transform: translate(30%);
+    }
+
+    .hakkinda .title {
+        width: 109px;
+        height: 28px;
+        margin: 0 240px 55px;
+        font-family: "BR Cobane";
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.56;
+        text-align: center;
+        color: #ff5d5d;
+    }
+
+    .hakkinda .title2 {
+        width: 380px;
+        height: 36px;
+        margin: 35px 100px 80px;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+    }
+
+    .hakkinda .hakkinda-aciklama {
+        width: 590px;
+        height: 112px;
+        margin: 70px 0 107px;
+        font-family: 'BRCobane';
+        font-size: 18px;
+        line-height: 1.56;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*ekipman*/
+    .swiper-slide .swipper-img {
+        display: block;
+        width: 180px;
+        height: 150px;
+        margin: 93px 0 77px 9px;
+    }
+
+    .ekipman h2 {
+        font-size: 20px;
+    }
+
+    /*deneyim*/
+    .deneyim-container img {
+        width: 60%;
+        height: 65%;
+        margin-top: 5%;
+        padding-right: 20px;
+    }
+
+    .deneyim-container .deneyim-icerik h2 {
+        width: 320px;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.35;
+        color: #000;
+    }
+
+    /*HAKKİMİZDA*/
+
+    #hakkimizda .hakkinda-anlatim {
+        top: 9%;
+    }
+
+    #hakkimizda .title2 {
+        font-size: 25px;
+    }
+
+    /*Timeline*/
+    .scroll-zaman {
+        height: 60vh;
+    }
+
+
+    /*Deneyim Yönlülük Ve Güvenirlik*/
+    #deneyim .yon-img {
+        width: 400px;
+        height: 450px;
+    }
+
+    .deneyim-yon {
+        height: 50vh;
+    }
+
+    .yon-icerik {
+        padding-left: 3vh;
+    }
+
+    /*Hammadde*/
+
+    #madde-id .madde-img {
+        width: 250px;
+        height: 425px;
+        padding-top: 30%;
+    }
+
+    .madde-icerik {
+        padding-left: 5%;
+    }
+
+    #madde-id .madde-icerik h2 {
+        font-size: 14px;
+    }
+
+    #madde-id .madde-icerik h3 {
+        font-size: 30px;
+    }
+
+    #madde-id .madde-icerik h4 {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    #madde-id .icerik-madde {
+        width: 370px;
+        height: 175px;
+        margin: 35px 0 0;
+        font-size: 16px;
+    }
+
+    .madde-icerik::after {
+        top: 85%;
+    }
+
+    .iletisim-medya {
+        padding-left: 9rem;
+    }
+
+    /*galeri madde*/
+    .madde-galeri {
+        width: 100%;
+        height: 40%;
+        background-color: #f3f3f3;
+    }
+
+    #madde-slide .madde-slider {
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+
+    /*özellik*/
+
+    .ozellik-icerik {
+        height: 45vh;
+    }
+
+    .iletisim-icerik {
+        height: 40vh;
+    }
+
+    #iletisim-form {
+        height: 40vh;
+    }
+
+
+
+}

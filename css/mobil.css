@@ -1,0 +1,477 @@
+/* nav slider*/
+@media screen and (max-width:768px) {
+
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid,
+    .navbar-expand-lg>.container-lg,
+    .navbar-expand-lg>.container-md,
+    .navbar-expand-lg>.container-sm {
+
+        padding-left: 270px;
+    }
+
+
+    header {
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10500;
+    }
+
+
+    #navbar img {
+        width: 80px;
+        top: 17px;
+        left: 4%;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    #navbar ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        margin: 2% 30%;
+        font-family: "BR Cobane";
+        font-size: 14px;
+    }
+
+    #navbar .menu-bar {
+        background-image: url("../image/menubar.png");
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+    }
+
+    #navbar ul li {
+        display: inline-block;
+    }
+
+    #navbar ul li a {
+        color: rgb(255, 255, 255);
+        padding: 0.8rem;
+        text-decoration: none;
+    }
+    header.urun-navbar .urun-a {
+        padding: 5px, 100px;
+    }
+
+
+    .sticky img {
+        filter: brightness(0) invert(1);
+    }
+
+
+    /* nav slider*/
+    .slider {
+        position: relative;
+        top: 0%;
+    }
+
+    .swiper-container {
+        height: 100%;
+    }
+
+    #slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #slider .swiper-button {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #slider .swiper-button.next {
+        left: 5%;
+    }
+
+    #slider .swiper-button.prev {
+        right: 5%;
+    }
+
+    .swiper-slide img {
+        display: flex;
+        object-fit: cover;
+    }
+
+    .ELYAF-GER-KAZANIM-S {
+        font-size: 20px;
+        font-weight: 90;
+    }
+
+    /*hakkında*/
+    .button {
+        width: 130px;
+        height: 53px;
+        border: 1.3px solid #fff;
+    }
+
+    .btn-primaryy {
+        margin-top: 100%;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+
+    .hakkinda {
+        align-items: center;
+        position: relative;
+    }
+
+
+    .hakkinda-text {
+        margin-top: 7%;
+        text-align: center;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        transform: translate(30%);
+    }
+
+    .hakkinda .title {
+        width: 30px;
+        height: 18px;
+        margin: 0 0px 50px;
+        margin-left: 0;
+        padding-left: 75px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .hakkinda .title2 {
+        width: 250px;
+        height: 36px;
+        margin: 0 15px 30px;
+        font-size: 15px;
+    }
+
+    .hakkinda .hakkinda-aciklama {
+        width: 250px;
+        height: 112px;
+        margin: 5px 0 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /*swiper*/
+    .ekipman {
+        padding-left: 4%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .ekipman .ekipman-title {
+
+        font-size: 15px;
+        line-height: 1.33;
+    }
+
+    .baslik {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+
+    .baslik .button.btn-primaryy {
+        margin-right: 10px;
+        margin-top: 0%;
+    }
+
+
+    .swiper-slide .swipper-img {
+        display: block;
+        width: 280px;
+        height: 200px;
+        margin: 40px 0 40px 23px;
+    }
+
+    .ekipman h2 {
+        font-size: 20px;
+    }
+
+    .ekipman .swiper-slide {
+        display: block;
+        padding: 15px;
+        margin: 25px 15px 25px 25px;
+    }
+
+    .ekipman .swiper-slide button {
+        z-index: 11;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 auto;
+    }
+
+    .ekipman .swiper-slide button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #icons::after {
+        width: 60%;
+    }
+
+    #icons {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin-right: 10%;
+    }
+
+    #icons .swiper-button button {
+        width: 4rem;
+        height: 4rem;
+        float: right;
+        margin-right: 5%;
+        margin-top: 0;
+
+    }
+
+    #icons .icons-ileri .icons-geri {
+        width: 20px;
+        height: 20px;
+    }
+
+    .deneyim-container {
+        height: 350px;
+        display: block;
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 20%;
+    }
+
+    .deneyim-container img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .deneyim-icerik {
+        padding-top: 2rem;
+    }
+
+    .deneyim-container .deneyim-icerik h2 {
+        width: 300px;
+        height: 100px;
+        font-size: 20px;
+        line-height: 1.35;
+
+    }
+
+    .deneyim-container .deneyim-icerik p {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
+    .deneyim-item {
+        padding: 2%;
+    }
+
+    .deneyim-item::before {
+        content: '';
+        position: absolute;
+        margin-bottom: 60px;
+        left: 8%;
+        padding: auto;
+        width: 50%;
+        height: 8px;
+
+        opacity: 0;
+        top: -8px;
+    }
+
+    .deneyim-item:hover::before {
+        opacity: 1;
+
+    }
+    .deneyim-item h2 {
+        font-size: 18px;
+        line-height: 1.39;
+    }
+
+    .deneyim-item p {
+        font-size: 16px;
+        line-height: 1.75;
+        color: #6b6b6b;
+    }
+    .deneyim-item button {
+        z-index: 11;
+        width: 2rem;
+        height: 2rem;
+        margin: 1rem 1rem;
+    }
+    .deneyim-item button:hover img {
+        filter: brightness(0) invert(1);
+    }
+
+    .deneyim-item button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tanitim .tanitim-icerik {
+        font-size: 18px;
+        line-height: 1.36;
+        padding: 3rem;
+    }
+
+    /*footer*/
+    .social_footer_ul {
+        display: table;
+        list-style-type: none;
+    }
+
+    .social_footer_ul h6 {
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: bold;
+        width: 300px;
+    }
+
+    .social_footer_ul li {
+        padding-right: 5px;
+        float: left;
+    }
+
+    .social_footer_ul li i {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .sosyal-medya {
+        
+    }
+
+    #contact .sosyalmedya-text {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+
+    .form-group .form-control {
+        border: 1px solid #000;
+        border-radius: 0%;
+        height: 3.5rem;
+        width: 25rem;
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    #contact .mail .form-group label {
+        padding-left: 2rem;
+        margin-top: 3rem;
+    }
+
+    #contact .form-group {
+        position: relative;
+    }
+
+    #contact .form-group i {
+        position: absolute;
+        right: 5.5rem;
+        top: 5.8rem;
+    }
+
+    #contact .no1 img {
+        padding-top: 3rem;
+        padding-right: 1rem;
+    }
+
+    #contact .no2 img {
+        padding-top: 4rem;
+        padding-right: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 6rem;
+    }
+
+    #contact .no1 span {
+        padding-top: 3rem;
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    #contact .no2 span {
+        padding-top: 4rem;
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    #contact .kvkk a {
+        padding-right: 1rem;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+
+    #contact .yil {
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .haber .haber-title {
+        font-size: 20px;
+        line-height: 1.33;
+    }
+    /*HAKKİMİZDA*/
+
+#hakkimizda img {
+    height: 100vh;
+}
+#hakkimizda .hakkinda-anlatim {
+    left: 10%;
+    top: 18%;
+}
+#hakkimizda .title2 {
+    font-size: 20px;
+}
+#hakkimizda .hakkinda-aciklamalar {
+    width: 300px;
+    height: 440px;
+}
+
+
+
+
+
+
+
+
+}

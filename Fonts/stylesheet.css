@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Grtsk Tera';
+    src: url('subset-GrtskTera-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Cobane';
+    src: url('subset-BRCobane-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Cobane Bold';
+    src: url('subset-BRCobane-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Cobane';
+    src: url('subset-BRCobane-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
